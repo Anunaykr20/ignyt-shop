@@ -6,10 +6,6 @@ import CustomNavbar from './components/common/Navbar';
 import Cart from './components/common/Cart';
 import RegisterForm from './components/auth/RegisterForm';
 import LoginForm from './components/auth/LoginForm';
-import Breweries from './components/breweries/Breweries';
-import BreweryDetails from './components/breweries/BreweryDetails';
-import CreateBrewery from './components/breweries/CreateBrewery';
-import EditBrewery from './components/breweries/EditBrewery';
 import Beers from './components/beers/Beers';
 import BeerDetails from './components/beers/BeerDetails';
 import CreateBeer from './components/beers/CreateBeer';
@@ -38,38 +34,7 @@ function App() {
             </PrivateRoute>
           }
         />
-        <Route
-          path="/breweries"
-          element={
-            <PrivateRoute>
-              <Breweries />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/breweries/:id"
-          element={
-            <PrivateRoute>
-              <BreweryDetails />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/breweries/create"
-          element={
-            <PrivateRoute>
-              <CreateBrewery />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/breweries/edit/:id"
-          element={
-            <PrivateRoute>
-              <EditBrewery />
-            </PrivateRoute>
-          }
-        />
+        
 
         {/* Beers */}
         <Route

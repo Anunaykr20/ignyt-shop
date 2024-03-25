@@ -38,8 +38,6 @@ function App() {
             </PrivateRoute>
           }
         />
-
-        {/* Breweries */}
         <Route
           path="/breweries"
           element={

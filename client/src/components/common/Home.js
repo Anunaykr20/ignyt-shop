@@ -3,7 +3,7 @@ import { Container, Button, Stack } from 'react-bootstrap';
 //import { Link } from 'react-router-dom';
 import { RiBeerFill } from 'react-icons/ri';
 import Beers from '../beers/Beers';
-// import Breweries from '../breweries/Breweries';
+
 
 const Home = () => {
   return (
@@ -16,29 +16,8 @@ const Home = () => {
             Check out and explore our wide selection of craft
             beers.
           </p>
-          <Stack
-            direction="horizontal"
-            gap={3}
-            className="justify-content-center"
-          >
-            {/* <Link to="/breweries">
-              <Button
-                variant="outline-secondary"
-                size="lg"
-                className="px-4 gap-3"
-              >
-                Breweries
-              </Button>
-            </Link> */}
-            {/* <Link to="/beers">
-              <Button variant="primary" size="lg" className="px-4">
-                Beers
-              </Button>
-            </Link> */}
-          </Stack>
         </div>
       </div>
-      {/* <Breweries /> */}
       <Beers />
     </Container>
   );

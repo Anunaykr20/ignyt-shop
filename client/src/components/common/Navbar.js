@@ -26,9 +26,6 @@ const CustomNavbar = () => {
           <Nav.Link as={Link} to="/beers">
             Beers
           </Nav.Link>
-          {/* <Nav.Link as={Link} to="/breweries">
-            Breweries
-          </Nav.Link> */}
           <Nav.Link as={Link} to="/cart">
             Cart
           </Nav.Link>

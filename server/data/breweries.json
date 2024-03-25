@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "65c7b86319c08024b60f3ff1",
+        "name": "Brlog",
+        "location": "Zadar, Hrvatska",
+        "image": "https://cdn-kaaed.nitrocdn.com/fQIRFYprtEDISfMJxIkYXnfrkKBNCzYR/assets/images/optimized/rev-586c2a8/brlog.hr/wp-content/uploads/2021/12/Brlog-crni-logo-bez-pozadine.png",
+        "description": "Mi smo Brlog zadružna pivovara: mali, nezavisni i društveno odgovorni kolektiv posvećen craft pivu.",
+        "website": "https://brlog.hr/"
+    },
+    {
+        "_id": "65c7b86319c08024b60f3ff2",
+        "name": "Familia",
+        "location": "Kaštel Gomilica, Hrvatska",
+        "image": "https://familia.hr/wp/wp-content/uploads/2017/07/logo-horizontal-black.png",
+        "description": "Mi smo Marina i Darko, zaljubljenici u život, pivo i homebrewing. Pivo nam je oduvijek u srcu, a od 2011. i dio našeg doma. 2019. nastaje Familia Craft pivovara – craft pivovara s dušom.",
+        "website": "https://familia.hr/"
+    },
+    {
+        "_id": "65c7b86319c08024b60f3ff3",
+        "name": "Pivovara Medvedgrad",
+        "location": "Zagreb, Hrvatska",
+        "image": "https://shop.pivovara-medvedgrad.hr/wp-content/uploads/2020/05/apple-touch-icon.png",
+        "description": "Najveća smo hrvatska craft pivovara koja od 1994. godine kuha ukusne i prirodne lagere na tradicionalan način.",
+        "website": "https://pivovara-medvedgrad.hr/"
+    },
+    {
+        "_id": "65c7b86319c08024b60f3ff4",
+        "name": "Tap B Craft Brewery",
+        "location": "Split, Hrvatska",
+        "image": "https://www.tapb.hr/wp-content/uploads/2018/03/TapBlogo12-640x640.png",
+        "description": "Iskusni osnivači pivovare koje su svoje znanje stekli dugogodišnjim kuhanjem piva kod kuće, odabrali su za vas najkvalitetnije sirovine koje dolaze sa čak tri kontinenta.",
+        "website": "https://www.tapb.hr/"
+    },
+    {
+        "_id": "65c7b86319c08024b60f3ff5",
+        "name": "The Garden Brewery",
+        "location": "Zagreb, Hrvatska",
+        "image": "https://thegarden.hr/app/uploads/2021/04/the-garden-logo-1.svg",
+        "description": "The Garden Brewery is an award-winning micro-brewery based in Zagreb, Croatia.",
+        "website": "https://thegarden.hr/"
+    },
+    {
+        "_id": "65c7b86319c08024b60f3ff6",
+        "name": "Zmajska pivovara",
+        "location": "Zagreb, Hrvatska",
+        "image": "https://zmajskapivovara.hr/wp-content/themes/ZmajskaPivovara01/images/zmajska_logo500px.PNG",
+        "description": "Zmajska pivovara nastala je 2013. godine kao rezultat dugogodišnje strasti prema vrhunskome pivu. Kao pioniri crafta u Hrvatskoj, ponosni na svoje homebrew korijene, njegujemo neovisnost, kreativnost i inovativnost u kuhanju piva.",
+        "website": "https://zmajskapivovara.hr/"
+    }
+]

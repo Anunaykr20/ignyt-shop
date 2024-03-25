@@ -39,7 +39,7 @@
 
 1. Clone the repository
    ```sh
-   git clone git@github.com:anamarijapapic/craft-beer-shop.git
+   git clone git@github.com:Anunaykr20/ignyt-shop
     ```
 2. Position to the project folder
     ```sh

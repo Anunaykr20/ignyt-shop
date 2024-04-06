@@ -11,7 +11,7 @@ const useGetUsers = () => {
   const fetchUsers = useCallback(async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/users', {
+      const response = await fetch('https://ignyt-shop-server1.onrender.com/users', {
         headers: {
           Authorization: `Bearer ${authToken}`,
         },

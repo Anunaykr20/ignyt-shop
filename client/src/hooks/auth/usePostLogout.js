@@ -9,7 +9,7 @@ const usePostLogout = () => {
 
   const postLogout = async () => {
     try {
-      const response = await fetch('http://localhost:5000/auth/logout', {
+      const response = await fetch('https://ignyt-shop-server1.onrender.com/auth/logout', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${authToken}`,

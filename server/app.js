@@ -30,11 +30,11 @@ app.use('*', cors({
   credentials: true
 }));
 
-app.use('/', indexRouter); // http://localhost:5000/
-app.use('/auth', authRouter); // http://localhost:5000/auth
-app.use('/users', usersRouter); // http://localhost:5000/users
-app.use('/beers', beersRouter); // http://localhost:5000/beers
-app.use('/breweries', breweriesRouter); // http://localhost:5000/breweries
+app.use('/', indexRouter); // https://ignyt-shop-server1.onrender.com/
+app.use('/auth', authRouter); // https://ignyt-shop-server1.onrender.com/auth
+app.use('/users', usersRouter); // https://ignyt-shop-server1.onrender.com/users
+app.use('/beers', beersRouter); // https://ignyt-shop-server1.onrender.com/beers
+app.use('/breweries', breweriesRouter); // https://ignyt-shop-server1.onrender.com/breweries
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

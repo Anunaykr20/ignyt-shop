@@ -9,7 +9,7 @@ const usePutBeer = () => {
 
   const putBeer = async (id, beerData) => {
     try {
-      const response = await fetch(`http://localhost:5000/beers/${id}`, {
+      const response = await fetch(`https://ignyt-shop-server1.onrender.com/beers/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

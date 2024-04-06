@@ -7,7 +7,7 @@ const useDeleteBrewery = () => {
 
   const deleteBrewery = async (id, refetchBreweries) => {
     try {
-      const response = await fetch(`http://localhost:5000/breweries/${id}`, {
+      const response = await fetch(`https://ignyt-shop-server1.onrender.com/breweries/${id}`, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${authToken}`,

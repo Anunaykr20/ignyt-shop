@@ -12,12 +12,12 @@ const useGetBeers = () => {
   const fetchBeers = useCallback(async () => {
     setLoading(true);
     try {
-      let url = 'http://localhost:5000/beers?sortBy=breweryName&sortOrder=asc'; // Default sorting by breweryName
+      let url = 'https://ignyt-shop-server1.onrender.com/beers?sortBy=breweryName&sortOrder=asc'; // Default sorting by breweryName
 
       if (sortBy === 'price_asc') {
-        url = 'http://localhost:5000/beers?sortBy=price&sortOrder=asc';
+        url = 'https://ignyt-shop-server1.onrender.com/beers?sortBy=price&sortOrder=asc';
       } else if (sortBy === 'price_desc') {
-        url = 'http://localhost:5000/beers?sortBy=price&sortOrder=desc';
+        url = 'https://ignyt-shop-server1.onrender.com/beers?sortBy=price&sortOrder=desc';
       }
 
       const response = await fetch(url, {

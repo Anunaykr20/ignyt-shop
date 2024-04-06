@@ -7,7 +7,7 @@ const usePutUser = () => {
 
   const putUser = async (id, userData) => {
     try {
-      const response = await fetch(`http://localhost:5000/users/${id}`, {
+      const response = await fetch(`https://ignyt-shop-server1.onrender.com/users/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

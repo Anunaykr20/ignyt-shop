@@ -9,7 +9,7 @@ const usePostBeer = () => {
 
   const postBeer = async (beerData) => {
     try {
-      const response = await fetch('http://localhost:5000/beers', {
+      const response = await fetch('https://ignyt-shop-server1.onrender.com/beers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

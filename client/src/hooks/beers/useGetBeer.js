@@ -10,7 +10,7 @@ const useGetBeer = (id) => {
   useEffect(() => {
     const fetchBeers = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/beers/${id}`, {
+        const response = await fetch(`https://ignyt-shop-server1.onrender.com/beers/${id}`, {
           headers: {
             Authorization: `Bearer ${authToken}`,
           },

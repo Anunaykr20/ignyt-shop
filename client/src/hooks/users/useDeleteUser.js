@@ -7,7 +7,7 @@ const useDeleteUser = () => {
 
   const deleteUser = async (id, refetchUsers) => {
     try {
-      const response = await fetch(`http://localhost:5000/users/${id}`, {
+      const response = await fetch(`https://ignyt-shop-server1.onrender.com/users/${id}`, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${authToken}`,

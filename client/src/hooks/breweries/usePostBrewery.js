@@ -9,7 +9,7 @@ const usePostBrewery = () => {
 
   const postBrewery = async (breweryData) => {
     try {
-      const response = await fetch('http://localhost:5000/breweries', {
+      const response = await fetch('https://ignyt-shop-server1.onrender.com/breweries', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

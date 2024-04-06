@@ -3,10 +3,14 @@
     "builds": [
         {"src": "*.js", "use": "@vercel/node"}
     ],
+
     "routes": [
         {
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+
+    "rewrites": [{ "src": "/(.*)", "dest": "/index.html" }]
+    
 }

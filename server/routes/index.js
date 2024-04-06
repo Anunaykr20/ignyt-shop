@@ -8,7 +8,7 @@ app.use(cors(
     methods: ["POST", "GET"],
     credentials:true
   }
-))
+));
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
